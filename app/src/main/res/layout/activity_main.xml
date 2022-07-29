@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ed_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyEditText"
+        android:hint="MyEditText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed_2_p"
+        style="@style/MyTextInputLayoutFilledBox"
+        android:hint="2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_2"
+            style="@style/MyTextInputEditText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed_3_p"
+        style="@style/MyTextInputLayoutFilledBox"
+        android:hint="3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_3"
+            style="@style/MyTextInputEditText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/MyButtonContained"
+        android:text="Submit" />
+</LinearLayout>
